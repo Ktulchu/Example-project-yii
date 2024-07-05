@@ -8,9 +8,14 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'My Version rebase Basic',
-    'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
     'aliases' => $aliases ,
+    'basePath' => dirname(__DIR__),
+    'vendorPath' => dirname(__DIR__) . '/vendor',
+    'runtimePath' => dirname(__DIR__) . '/runtime',
+    'bootstrap' => ['log'],
+    'sourceLanguage' => 'ru_RU',
+    'language' => 'ru_RU',
+    'timeZone' => 'Europe/Moscow',
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
