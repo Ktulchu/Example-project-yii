@@ -1,0 +1,1054 @@
+2024-07-04 12:31:13 [172.29.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /app/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/site/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /app/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/site/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2024-07-04 12:31:12 [172.29.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'e33b945cfbfe'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.29.0.4'
+    'REMOTE_PORT' => '58736'
+    'REMOTE_ADDR' => '172.29.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720096272.3052
+    'REQUEST_TIME' => 1720096272
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-04 14:49:39 [192.168.48.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /app/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/site/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /app/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/site/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2024-07-04 14:49:36 [192.168.48.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '4f227e3694b2'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.48.4'
+    'REMOTE_PORT' => '44158'
+    'REMOTE_ADDR' => '192.168.48.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720104576.0162
+    'REQUEST_TIME' => 1720104576
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-04 14:50:41 [192.168.48.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /app/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /app/site/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /app/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /app/site/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2024-07-04 14:50:40 [192.168.48.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '4f227e3694b2'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.48.4'
+    'REMOTE_PORT' => '44158'
+    'REMOTE_ADDR' => '192.168.48.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720104640.1236
+    'REQUEST_TIME' => 1720104640
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-04 14:56:10 [192.168.48.1][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'app\controllers\SiteController' in file: /app/controllers/SiteController.php. Namespace missing? in /app/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 /app/vendor/yiisoft/yii2/base/Module.php(661): class_exists('app\\controllers...')
+#2 /app/vendor/yiisoft/yii2/base/Module.php(620): yii\base\Module->createControllerByID('site')
+#3 /app/vendor/yiisoft/yii2/base/Module.php(546): yii\base\Module->createController('index')
+#4 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#5 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /app/site/web/index.php(11): yii\base\Application->run()
+#7 {main}
+2024-07-04 14:56:10 [192.168.48.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.48.1
+2024-07-04 14:56:10 [192.168.48.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '4f227e3694b2'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.48.4'
+    'REMOTE_PORT' => '57270'
+    'REMOTE_ADDR' => '192.168.48.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720104969.9488
+    'REQUEST_TIME' => 1720104969
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-04 15:04:59 [192.168.48.1][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'app\controllers\SiteController' in file: /app/controllers/SiteController.php. Namespace missing? in /app/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 /app/vendor/yiisoft/yii2/base/Module.php(661): class_exists('app\\controllers...')
+#2 /app/vendor/yiisoft/yii2/base/Module.php(620): yii\base\Module->createControllerByID('site')
+#3 /app/vendor/yiisoft/yii2/base/Module.php(546): yii\base\Module->createController('index')
+#4 /app/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#5 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /app/site/web/index.php(11): yii\base\Application->run()
+#7 {main}
+2024-07-04 15:04:59 [192.168.48.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.48.1
+2024-07-04 15:04:58 [192.168.48.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '4f227e3694b2'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.48.4'
+    'REMOTE_PORT' => '47010'
+    'REMOTE_ADDR' => '192.168.48.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720105498.6985
+    'REQUEST_TIME' => 1720105498
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-04 15:07:14 [192.168.48.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.48.1
+2024-07-04 15:07:14 [192.168.48.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '4f227e3694b2'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.48.4'
+    'REMOTE_PORT' => '40124'
+    'REMOTE_ADDR' => '192.168.48.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720105633.8614
+    'REQUEST_TIME' => 1720105633
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-05 08:07:01 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2024-07-05 08:07:00 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'ef170d9d4738'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '36312'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720166819.9306
+    'REQUEST_TIME' => 1720166819
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-05 08:07:11 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2024-07-05 08:07:10 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'ef170d9d4738'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '36312'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720166830.033
+    'REQUEST_TIME' => 1720166830
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-05 08:10:23 [172.22.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.22.0.1
+2024-07-05 08:10:22 [172.22.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'ef170d9d4738'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'task.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '56440'
+    'REMOTE_ADDR' => '172.22.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720167022.6859
+    'REQUEST_TIME' => 1720167022
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-05 08:14:19 [172.23.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.23.0.1
+2024-07-05 08:14:18 [172.23.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '3279eb7954a2'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.23.0.4'
+    'REMOTE_PORT' => '60346'
+    'REMOTE_ADDR' => '172.23.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720167258.7599
+    'REQUEST_TIME' => 1720167258
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-05 08:16:52 [172.24.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.24.0.1
+2024-07-05 08:16:51 [172.24.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a8bd733bfa55'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'task.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.24.0.4'
+    'REMOTE_PORT' => '38760'
+    'REMOTE_ADDR' => '172.24.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720167411.0325
+    'REQUEST_TIME' => 1720167411
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-05 08:17:30 [172.24.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.24.0.1
+2024-07-05 08:17:30 [172.24.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a8bd733bfa55'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'example.local'
+    'SCRIPT_FILENAME' => '/app/site/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.24.0.4'
+    'REMOTE_PORT' => '43126'
+    'REMOTE_ADDR' => '172.24.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/site/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720167450.0566
+    'REQUEST_TIME' => 1720167450
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-05 08:30:31 [172.25.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.25.0.1
+2024-07-05 08:30:30 [172.25.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '9d60dd5e9537'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'example.local'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.25.0.4'
+    'REMOTE_PORT' => '47754'
+    'REMOTE_ADDR' => '172.25.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720168229.6373
+    'REQUEST_TIME' => 1720168229
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]

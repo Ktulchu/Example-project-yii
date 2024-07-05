@@ -1,0 +1,52 @@
+services:
+  nginx:
+    container_name: yii_nginx
+    build:
+      context: docker/nginx
+    ports:
+      - 80:80
+    networks:
+      - yii
+    restart: unless-stopped
+    working_dir: /app
+    volumes:
+      - ./app:/var/www/test
+      - .:/app
+    depends_on:
+      - php
+  php:
+    container_name: php
+    build:
+      context: docker/php
+      args:
+        - DOCKER_YII2_PHP_IMAGE
+    restart: unless-stopped
+    working_dir: /app
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+    environment:
+      PHP_ENABLE_XDEBUG: ${PHP_ENABLE_XDEBUG}
+    networks:
+      - yii
+  postgres:
+    container_name: yii_postgres
+    image: postgis/postgis:14-master
+    ports:
+      - 5432:5432
+    restart: unless-stopped
+    volumes:
+      - ./docker/data/postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    networks:
+      - yii
+networks:
+  yii:
+
+volumes:
+  db:
+
