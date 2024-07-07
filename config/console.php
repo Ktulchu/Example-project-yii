@@ -4,12 +4,14 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
 $db = require __DIR__ . '/db.php';
+$modules = require __DIR__ . '/configModules.php';
+$params = require __DIR__ . '/params.php';
 
 $config = [
     'id' => 'basic-console',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'controllerNamespace' => 'app\commands',
+    'controllerNamespace' => 'app\console',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -29,7 +31,8 @@ $config = [
         ],
         'db' => $db,
     ],
-    'params' => [],
+    'params' => $params,
+    'modules'=> $modules,
     'controllerMap' => [
         'fixture' => [
             'class' => \yii\console\controllers\FixtureController::class,
@@ -44,5 +47,4 @@ $config = [
         ],
     ],
 ];
-
 return $config;

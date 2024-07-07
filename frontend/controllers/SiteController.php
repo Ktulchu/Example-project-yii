@@ -2,6 +2,7 @@
 
 namespace frontend\controllers;
 
+use Yii;
 use yii\web\Controller;
 
 class SiteController extends Controller
@@ -15,8 +16,12 @@ class SiteController extends Controller
         ];
     }
 
-    public function actionIndex(): string
+    public function actionIndex()
     {
-        return 'This is SiteController';
+        //return 'This is SiteController';
+        $tables = Yii::$app->db->schema->getTableNames();
+        foreach ($tables as $table) {
+            echo $table . "<br>";
+        }
     }
 }

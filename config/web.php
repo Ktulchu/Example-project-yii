@@ -5,6 +5,8 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
 $db = require __DIR__ . '/db.php';
+$modules = require __DIR__ . '/configModules.php';
+$params = require __DIR__ . '/params.php';
 
 $config = [
     'id' => 'My Version rebase Basic',
@@ -24,9 +26,17 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+//        'user' => [
+//            'identityClass' => 'app\models\User',
+//            'enableAutoLogin' => true,
+//        ],
         'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
+            'class' => 'webvimark\modules\UserManagement\components\UserConfig',
+
+            // Comment this if you don't want to record user logins
+            'on afterLogin' => function($event) {
+                \webvimark\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
+            }
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
@@ -56,7 +66,8 @@ $config = [
         ],
 
     ],
-    'params' => [],
+    'params' => $params,
+    'modules'=> $modules
 ];
 
 if (YII_ENV_DEV) {

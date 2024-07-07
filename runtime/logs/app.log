@@ -7729,3 +7729,525 @@ $_SERVER = [
     'POSTGRES_USER' => 'postgres_yii'
     'POSTGRES_PASSWORD' => 'tester_yii'
 ]
+2024-07-07 09:56:40 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 09:56:39 [172.26.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a5a822fe30ae'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'test.local'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.26.0.4'
+    'REMOTE_PORT' => '33760'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720335399.5438
+    'REQUEST_TIME' => 1720335399
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-07 07:21:37 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migration". in /app/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migration', Array)
+#1 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migration', Array)
+#2 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /app/yii(11): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migration". in /app/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migration', Array)
+#1 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /app/yii(11): yii\base\Application->run()
+#3 {main}
+2024-07-07 07:21:37 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a5a822fe30ae'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1720336896.9894
+    'REQUEST_TIME' => 1720336896
+    'argv' => [
+        0 => 'yii'
+        1 => 'migration'
+    ]
+    'argc' => 2
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-07 07:42:07 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[08006] [7] connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /app/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('pgsql:host=loca...', 'postgres_yii', Object(SensitiveParameterValue), NULL)
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /app/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 /app/vendor/yiisoft/yii2/db/Schema.php(461): yii\db\Connection->getSlavePdo(true)
+#5 /app/vendor/yiisoft/yii2/db/Connection.php(946): yii\db\Schema->quoteValue('migration')
+#6 /app/vendor/yiisoft/yii2/db/pgsql/Schema.php(465): yii\db\Connection->quoteValue('migration')
+#7 /app/vendor/yiisoft/yii2/db/pgsql/Schema.php(193): yii\db\pgsql\Schema->findColumns(Object(yii\db\TableSchema))
+#8 /app/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\pgsql\Schema->loadTableSchema('migration')
+#9 /app/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#10 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /app/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#16 /app/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('', Array)
+#17 /app/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('', Array)
+#18 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#19 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#20 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /app/yii(11): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[08006] [7] connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /app/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 /app/vendor/yiisoft/yii2/db/Schema.php(461): yii\db\Connection->getSlavePdo(true)
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(946): yii\db\Schema->quoteValue('migration')
+#4 /app/vendor/yiisoft/yii2/db/pgsql/Schema.php(465): yii\db\Connection->quoteValue('migration')
+#5 /app/vendor/yiisoft/yii2/db/pgsql/Schema.php(193): yii\db\pgsql\Schema->findColumns(Object(yii\db\TableSchema))
+#6 /app/vendor/yiisoft/yii2/db/Schema.php(756): yii\db\pgsql\Schema->loadTableSchema('migration')
+#7 /app/vendor/yiisoft/yii2/db/Schema.php(192): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#8 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /app/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#14 /app/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('', Array)
+#15 /app/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('', Array)
+#16 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#17 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#18 /app/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /app/yii(11): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 08006
+    [1] => 7
+    [2] => connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+)
+
+2024-07-07 07:42:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a5a822fe30ae'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/usr/local/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1720338126.3162
+    'REQUEST_TIME' => 1720338126
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-07 10:44:25 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 10:44:25 [172.26.0.1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in /app/frontend/controllers/SiteController.php on line 24. in /app/vendor/yiisoft/yii2/web/Response.php:369
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(342): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/base/Application.php(390): yii\web\Response->send()
+#2 /app/frontend/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2024-07-07 10:44:25 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 10:44:25 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 10:44:24 [172.26.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a5a822fe30ae'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'test.local'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.26.0.4'
+    'REMOTE_PORT' => '34548'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720338264.7114
+    'REQUEST_TIME' => 1720338264
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-07 10:50:16 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 10:50:16 [172.26.0.1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in /app/frontend/controllers/SiteController.php on line 24. in /app/vendor/yiisoft/yii2/web/Response.php:369
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(342): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/base/Application.php(390): yii\web\Response->send()
+#2 /app/frontend/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2024-07-07 10:50:16 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 10:50:16 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 10:50:15 [172.26.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a5a822fe30ae'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'test.local'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.26.0.4'
+    'REMOTE_PORT' => '49444'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720338615.604
+    'REQUEST_TIME' => 1720338615
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]
+2024-07-07 11:34:36 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 11:34:36 [172.26.0.1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in /app/frontend/controllers/SiteController.php on line 24. in /app/vendor/yiisoft/yii2/web/Response.php:369
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/web/Response.php(342): yii\web\Response->sendHeaders()
+#1 /app/vendor/yiisoft/yii2/base/Application.php(390): yii\web\Response->send()
+#2 /app/frontend/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2024-07-07 11:34:36 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 11:34:36 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2024-07-07 11:34:35 [172.26.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'a5a822fe30ae'
+    'PHP_VERSION' => '8.2.20'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/var/www'
+    'PHP_SHA256' => '4474cc430febef6de7be958f2c37253e5524d5c5331a7e1765cd2d2234881e50'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz'
+    'SHLVL' => '0'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-8.2.20.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'USER' => 'www-data'
+    'HTTP_PRIORITY' => 'u=1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0'
+    'HTTP_HOST' => 'test.local'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'examle.local'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.26.0.4'
+    'REMOTE_PORT' => '42570'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.27.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1720341275.2328
+    'REQUEST_TIME' => 1720341275
+    'argv' => []
+    'argc' => 0
+    'COMPOSE_PROJECT_NAME' => 'test'
+    'DOCKER_YII2_PHP_IMAGE' => 'yiisoftware/yii2-php:8.2-fpm'
+    'YII_DEBUG' => '0'
+    'YII_ENV' => 'prod'
+    'BASIC_ENABLE' => '0'
+    'BASIC_USER' => 'user'
+    'BASIC_PASSWORD' => 'password'
+    'SESSION_NAME' => 'PHPSESSID'
+    'COOKIE_DOAMIN' => '.task.local'
+    'POSTGRES_HOST' => 'postgres'
+    'POSTGRES_DB' => 'postgres_yii'
+    'POSTGRES_USER' => 'postgres_yii'
+    'POSTGRES_PASSWORD' => 'tester_yii'
+]

@@ -5,10 +5,7 @@ use yii\helpers\ArrayHelper;
 $mainConfig = require dirname(__DIR__) . '/../config/web.php';
 
 $config = [
-    'id' => 'crm',
-    'name' => 'АН АРБАТ',
     'basePath' => dirname(__DIR__),
-   // 'container' => require __DIR__ . '/container.php',
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'assetManager' => [
